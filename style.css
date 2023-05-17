@@ -171,7 +171,7 @@ transition: all 1.1s;
 
 .Trending div img{
   width: 100%;
-  border-radius: 20px;
+  border-radius: 40px;
   float: left;
   height: 100%;
   cursor: pointer;
