@@ -130,7 +130,7 @@ nav-item .nav-link:hover{
 
 @keyframes changetext{
   0%{content: "LONDON";}
-  30%{content: "Manchester";}
+  30%{content: "MANCHESTER";}
   100%{content: "NEW YORK";}
 } 
 .home .content p{
