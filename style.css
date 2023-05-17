@@ -1,0 +1,384 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+  font-family: 'Lato', sans-serif;
+
+}
+
+
+/* Nav Bar starts*/
+
+
+
+
+
+#logo{
+font-size: 36px;
+font-weight: 700;
+color: black;
+text-shadow: 0px 1px  1px black;
+margin-bottom: 5px;
+padding-left: 100px;
+
+
+}
+
+#logo span{
+  color: #BF1B39;
+}
+.navbar-toggler span{
+  color:#BF1B39;
+}
+
+.navbar-nav{
+  margin-left: 20px;
+
+
+}
+
+.nav-item .nav-link {
+  
+    font-size: 16px;
+    font-weight: 550;
+    color: black;
+    letter-spacing: 4px;
+    border-radius: 3px;
+    transition: 0.5s ease;
+    display: flex;
+    text-align: right;
+    margin-right: 20px;
+
+}
+.nav-item .nav-link ul{
+display: inline-block;
+margin-right: 20px;
+
+}
+
+.nav-item .nav-link:hover{
+  background: #BF1B39;
+  color: white;
+}
+
+nav-item .nav-link:hover{
+  background: #BF1B39;
+  color: white;
+}
+#navbar form button{
+  background: #BF1B39;
+  color: white;
+  border: none;
+}
+
+/* Nav Bar ends*/
+
+
+
+
+
+
+
+/* Home Section Start */
+
+
+.home{
+  width: 100%;
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./seabird-london.jpg);
+ 
+
+}
+
+
+.home .content{
+  text-align: center;
+  padding-top: 500px;
+}
+
+
+.home .content h5{
+  color: white;
+  font-size: 38px;
+  font-weight: 550;
+  text-shadow: 0px 1px 1px black;
+}
+
+
+.home .content h1{
+  color: white;
+  font-size: 70px;
+  font-weight: 550;
+  text-shadow: 0px 1px 1px black;
+  margin-top: 5px;
+}
+
+
+.changecontent::after{
+  content: ' ';
+  color:#BF1B39;
+  text-shadow: 0px 1px 1px black;
+  animation:changetext 10s infinite linear;
+}
+
+
+@keyframes changetext{
+  0%{content: "LONDON";}
+  30%{content: "Manchester";}
+  100%{content: "NEW YORK";}
+} 
+.home .content p{
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  text-shadow: 0px 1px 1px black;
+  margin-bottom: 30px;
+  margin-top: 5px;
+}
+.home .content a{
+  padding: 10px;
+  background: white;
+  color: black;
+  letter-spacing: 2px;
+  font-weight: 550;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.home .content a:hover{
+  background: #BF1B39;
+  color:white;
+}
+
+
+/* --------------OUR BARS---------------- */
+
+.Trending {
+display: grid;
+grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+grid-gap: 120px;
+margin-bottom: 70px;
+margin-top: 50px;
+transition: all 1.1s;
+
+}
+
+.Trending div img{
+  width: 100%;
+  border-radius: 20px;
+  float: left;
+  height: 100%;
+  cursor: pointer;
+box-shadow: 0 4px 6px -1px rgba(0,0,0,0.9);
+margin-bottom: 10px;
+
+}
+
+.Trending h3{
+
+color: #BF1B39;
+text-align: center;
+text-shadow: 0px 1px 1px rgb(7, 7, 7);
+}
+
+.Subtitle{
+font-weight: 800;
+margin-top: 100px;
+margin-bottom: 10px;
+text-align: center;
+text-shadow: 0px 1px 1px rgb(238, 10, 10);
+
+
+}
+
+.Trending div img:hover{
+transform: scale(1.1);
+
+}
+
+/*Booking form*/
+
+Book Now{
+  width: 150px;
+  height: 38px;
+  border: none;
+  border-radius: 5px;
+  background: #ffa500;
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 550;
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+.heading{
+font-weight: 800;
+margin-top: 100px;
+margin-bottom: 20px;
+text-align: center;
+text-shadow: 0px 1px 1px rgb(236, 36, 36);
+}
+
+
+/* Menu& Events starts */
+
+
+.Events div img{
+  width: 100%;
+  border-radius: 0px;
+  float: left;
+  height: 100%;
+  cursor: pointer;
+box-shadow: 0 4px 6px -1px rgba(0,0,0,0.9);
+
+}
+
+
+.Events{
+  padding: 50px;
+  margin-top: 50px;
+  background:#f9f9f9;
+  margin: 100px;
+ 
+}
+
+.Events.card{
+  background:#CFBEAC
+
+}
+
+.main-txt{
+font-weight: 700;
+margin-top: 100px;
+margin-bottom: 10px;
+text-align: center;
+text-shadow: 0px 1px 1px rgb(238, 10, 10);
+}
+
+
+.Events h2{
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 50px;
+  margin-left: 50px;
+}
+.Events p{
+  font-weight: 500;
+  margin: 50px;
+  margin-left: 50px;
+}
+#Events-btn{
+  width: 150px;
+    height: 38px;
+    border: none;
+    border-radius: 5px;
+    background:#ffa500;
+    color: black;
+    letter-spacing: 2px;
+    font-weight: 550;
+    transition: 0.5s ease;
+    cursor: pointer;
+    margin: 20px;
+    margin-left: 50px;
+}
+#Events-btn:hover{
+  width: 170px;
+}
+
+
+
+/* Menu& Events ends */
+
+
+
+/* Footer End */
+
+.footer{
+  width: 100%;
+  background: #f0eeec;
+  margin-top: 40px;
+}
+
+
+#footer .socail-links i{
+  font-size: 17px;
+  margin-left: 10px;
+  margin-top: 30px;
+  padding: 10px;
+  background: black;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+iframe{
+
+padding: 40px;
+
+}
+.col h5{
+ margin-left: 15px;
+  align-items: center;
+  text-align: left;
+  padding: 10px;
+
+
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container{
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
